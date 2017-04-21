@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="styles/base/reset.css">
 	<link rel="stylesheet" href="styles/base/fonts.css">
 	<link rel="stylesheet" href="styles/views/landing.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
 <main class="main-wrapper">
@@ -20,6 +22,9 @@
 			</div>
 		</header>
 	</section>
+	<div class="time-cover">
+	    <p id="time"></p>
+	</div>
 
 	<!-- to-do main container -->
 	<section class="todo-main-container">
@@ -33,7 +38,29 @@
 	</section>
 
 	<!-- FORM -->
+	<div class="fade-div">
+	<div class="form-input-container">
+	
+	<input class="form-input" type="text"/>
+	</div>
+	
+	
 	<!--Add new task form here -->
+	<div class="list-container-off">
+        <h2 class="list-title">TODO</h2>  
+	    <ul class="list todo-list"></ul>  
+	    </div>
+	                                        <div id="l-btn" class="left-btn"><div class="outer-arrow"><p class="arrow"><i class="fa fa-trash"></i></p></div></div>
+	
+    
+    
+    <div class="list-container2-off">
+     <h2 class="list-title">DONE</h2>
+	      <ul class="list2"></ul>  
+	  </div>
+                                            <div id="r-btn" class="right-btn"><div class="outer-arrow"><p class="arrow">&rarr;</p></div></div>
+	
+	</div>
 
 	<!-- FOOTER -->
 	<footer class="todo-footer">
@@ -44,6 +71,8 @@
 	<!--jQuery-->
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<!--INclude your script file here -->
+	
+	<script type="text/javascript" src="script.js"></script>
 </main>
 </body>
 </html>

@@ -1,0 +1,168 @@
+*{
+    box-sizing: border-box;
+}
+
+.fade-div{
+    display: none;
+}
+.list-container-on{
+    width:40%;
+    height:44vh;
+    background:rgba(0,0,0,.2);
+    border-radius:6%;
+    position:absolute;
+    left:5%;
+    top:245px
+    
+}
+.list-container2-on{
+    width:40%;
+    height:44vh;
+    background:rgba(0,0,0,.2);
+    border-radius:6%;
+    position:absolute;
+    right:5%;
+    top:245px
+    
+}
+
+.list-container-off{
+    width:40%;
+    height:44vh;
+    background:rgba(243,82,74,0);
+    border:1px solid #F3524A;
+    border-radius:6%;
+    position:absolute;
+    left:5%;
+    top:245px
+    
+}
+.list-container2-off{
+    width:40%;
+    height:44vh;
+    background:rgba(243,82,74,0);
+     border:1px solid #F3524A;
+    border-radius:6%;
+    position:absolute;
+    right:5%;
+    top:245px
+    
+}
+
+.undone-items{
+    padding: 5px;
+    color:white;
+    font-size: 1.3em;
+    text-align: center;
+}
+.list-title{
+    text-align: center;
+    font-weight: 800;
+    border-bottom:1px solid #F3524A;
+    padding:10px;
+}
+.left-btn{
+    width:40px;
+    height:40px;
+    background:#F3524A;
+    border-radius:50%;
+    position: absolute;
+    left:46%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.outer-arrow{
+    display:flex;
+    justify-content: center;
+}
+.arrow{
+    font-size: 1.5em;
+    color:white;
+    
+    
+}
+
+.right-btn{
+    width:40px;
+    height:40px;
+    background:#F3524A;
+    border-radius:50%;
+    position: absolute;
+    left:46%;
+    top:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.right-arrow{
+    display:flex;
+    justify-content: center;
+}
+
+.highlighted{
+    
+    padding: 5px;
+    color:white;
+    font-size: 1.3em;
+    text-align: center;
+    background-color:rgb(243,82,74);
+}
+
+.tobeDeleted{
+    
+    padding: 5px;
+    color:#eee;
+    font-size: 1.3em;
+    text-align: center;
+    text-decoration-line: line-through;
+}
+
+.time-cover{
+    
+    width:100%;
+    height:9vh;
+    position: absolute;
+    top:0;
+    background:#4a4b55;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+#time{
+    font-size:1.6em;
+    color:rgb(243,82,74);
+    align-self: center;
+    padding-right:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
